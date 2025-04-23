@@ -1,13 +1,13 @@
 # FILL IN THE MISSING VALUES BELOW
 alerting:
   ???:
-    token: "<github-token>" # WARN: DO NOT CHANGE THIS LINE
+    token: "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" # WARN: DO NOT CHANGE THIS LINE
 # FILL IN THE MISSING VALUES ABOVE
 
 # FILL IN THE MISSING VALUES BELOW
 endpoints:
   - name: Leantime
-    url: <leantime-url> # WARN: DO NOT CHANGE THIS LINE
+    url: lks-endpoint-leantime-600718600.us-east-1.elb.amazonaws.com # WARN: DO NOT CHANGE THIS LINE
     interval:
     conditions:
     alerts:
@@ -15,7 +15,7 @@ endpoints:
         description: "Sensei, Leantime is down! Please check and fix it."
 
   - name: Gatus
-    url: <gatus-url> # WARN: DO NOT CHANGE THIS LINE
+    url: lks-endpoint-gatus-ul-363049383.us-east-1.elb.amazonaws.com # WARN: DO NOT CHANGE THIS LINE
     interval:
     conditions:
     alerts:
