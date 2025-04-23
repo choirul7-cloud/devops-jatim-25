@@ -1,8 +1,8 @@
 {
   // FILL IN THE MISSING VALUES BELOW
-  "family": "",
-  "taskRoleArn": "",
-  "executionRoleArn": "",
+  "family": "lks-gatus-app",
+  "taskRoleArn": "LabRole",
+  "executionRoleArn": "LabRole",
   "networkMode": "",
   "volumes": [],
   "placementConstraints": [],
@@ -19,7 +19,7 @@
   "containerDefinitions": [
     {
       "name": "gatus",
-      "image": "<task-def-image>", // WARN: REMOVE THIS COMMENT AND DO NOT CHANGE THIS LINE
+      "image": "<task-def-image>", 
       "cpu": 0,
       "essential": true,
       "volumesFrom": [],
