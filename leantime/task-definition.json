@@ -1,8 +1,8 @@
 {
   // FILL IN THE MISSING VALUES BELOW
   "family": "",
-  "taskRoleArn": "",
-  "executionRoleArn": "",
+  "taskRoleArn": "LabRole",
+  "executionRoleArn": "LabRole",
   "networkMode": "",
   "requiresCompatibilities": ???,
   "cpu": "",
